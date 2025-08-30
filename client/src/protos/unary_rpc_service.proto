@@ -1,0 +1,30 @@
+/**
+ * @file UnaryRPCService.proto
+ *
+ * @brief Represents UnaryRPCService, Request and Response.
+ *
+ * @author Hovsep Papoyan
+ * Contact: papoyanhovsep93@gmail.com
+ * @Date 2024-03-28
+ *
+ */
+
+syntax = "proto3";
+
+package example;
+
+service UnaryRPCService
+{
+    rpc UnaryRPC (Request) returns (Response) {}
+}
+
+message Request
+{
+    string payload = 1;
+}
+
+message Response
+{
+    string payload = 1;
+}
+
