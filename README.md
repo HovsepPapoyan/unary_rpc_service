@@ -9,7 +9,7 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 1. Clone the repository
     ```bash
     git clone https://github.com/HovsepPapoyan/unary_rpc_service.git
-    cd polycircuit
+    cd unary_rpc_service
     ```
 
 2. Build and run server
